@@ -1,8 +1,6 @@
 import pickle
-import os
-from flask import Flask, request, app, jsonify, render_template, url_for
+from flask import Flask, request, app, jsonify, render_template
 import numpy as np
-import pandas as pd
 
 app = Flask(__name__)
 # Load the model
